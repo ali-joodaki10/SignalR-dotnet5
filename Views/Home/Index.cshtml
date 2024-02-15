@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+<div class="card" id="chat-box">
+    <div class="card-header">
+        <b>پشتیبانی آنلاین</b>
+    </div>
+    <div class="message-panel">
+        <ul id="messages">
+
+        </ul>
+        <div id="send-new-message">
+            <form id="new-message-from" class="row">
+                <input id="message-input" class="form-control col-md-8"
+                placeholder="send new massage"/>
+
+                <button class="btn btn-success col-md-4">
+                    send
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

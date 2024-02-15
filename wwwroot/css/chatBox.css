@@ -1,0 +1,55 @@
+﻿#chat-box{
+    position:fixed;
+    z-index:10;
+    bottom:20px;
+    right:20px;
+    background-color:white;
+    height:400px;
+    width:300px;
+    display:none;
+}
+
+#chat-box.show{
+    display:block;
+}
+
+#message-panel{
+    padding-left:15px
+}
+
+#messages{
+    list-style-type:none;
+    text-align:left;
+    padding-top:15px;
+    margin-bottom:15px;
+    height:285px;
+    overflow-y:scroll;
+}
+
+#messages li{
+    padding-bottom:15px
+}
+
+    #messages li .name {
+        font-weight:bold;
+        margin-right: 15px
+    }
+    #messages li .time {
+        color:#999
+    }
+    #messages li .message {
+        padding-top: 5px;
+    }
+
+#send-new-message{
+    position:absolute;
+    width:270px
+}
+    #send-new-message #new-message-from {
+        margin-left:0 !important
+    }
+
+    #send-new-message #message-input{
+        width:200px
+    }
+
